@@ -1,0 +1,28 @@
+
+.searchPage h1{
+    width:94vw;
+    height:4vh;
+    display:flex;
+    margin:1.5vh auto ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.searchPage .searchBar{
+    width:83vw;
+    margin:0;
+}
+
+.searchPage h1 p{
+    font-size: 2.1vh;
+    color: gray;
+}
+
+.searchPage  h2{
+    position:relative;
+    top:4vh;
+    width:100vw;
+    font-size: 1.8vh;
+    color:gray;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.newList .am-list .am-list-body::before{
+    display:none;
+}
+
+.newList .am-list .am-list-body::after{
+    width:95%;
+    left:auto;
+    right:0;
+}
+
+/*.newList .am-list-thumb{*/
+    /*width:8vh;*/
+    /*height:8vh;*/
+/*}*/

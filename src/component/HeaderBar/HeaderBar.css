@@ -1,0 +1,61 @@
+.HeaderBar{
+    width:100vw;
+    height:6vh;
+    font-weight: lighter;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderBar h1{
+    margin: 0;
+    width:20vw;
+    height:6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.HeaderBar h1 img{
+    width:3.2vh;
+    height:3.2vh;
+    margin-left:2vh;
+}
+
+.HeaderBar h1 p {
+    font-weight: normal;
+    font-size: 2.3vh;
+    margin:0;
+}
+
+.HeaderBar h2{
+    font-size: 2.7vh;
+    margin: 0;
+    font-weight: normal;
+}
+
+.HeaderBar h3{
+    margin: 0;
+    width:20vw;
+    height:6vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HeaderBar h3 img{
+    width:3.2vh;
+    height:3.2vh;
+    margin-right: 2vh;
+}
+.HeaderBar h3 p{
+    font-weight: normal;
+    font-size: 2.3vh;
+    margin:0;
+}
+.headerBarBlank {
+    width:100vw;
+    height:6vh;
+    background-Color:rgba(0,0,0,0)
+}

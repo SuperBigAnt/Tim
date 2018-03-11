@@ -1,0 +1,70 @@
+.friends{
+    background-color: white;
+}
+.friendsHeader{
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: #e5e5e5;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.friendsHeader h1 {
+    margin: 0;
+    padding-left:2vh;
+    width:7vh ;
+    height: 7vh;
+    font-size: 2.3vh;
+    vertical-align: middle;
+    line-height: 7vh;
+}
+.friendsHeader h2 {
+    width:40vw ;
+    height: 7vh;
+    font-size: 3vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+}
+.friendsHeader img {
+    margin-right:2vh;
+    margin-left:4vh;
+    width:3vh ;
+    height: 3vh;
+}
+
+.friendsTipPart {
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    background-color:white;
+    justify-content:space-around ;
+    align-items: center;
+    border-style: solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #e5e5e5;
+}
+.friendsTipPart div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 10vh;
+    height: 10vh;
+}
+
+.friendsTipPart img{
+    width: 6vh;
+    height: 6vh;
+}
+
+.friendsTipPart p{
+    margin:0;
+    width:7vh;
+    height:3vh;
+    text-align: center;
+}

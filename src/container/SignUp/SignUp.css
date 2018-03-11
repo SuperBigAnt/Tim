@@ -1,0 +1,82 @@
+
+.signUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-between ;
+    width:100%;
+    height:100vh;
+    background-color: white;
+}
+
+.signUpHeader{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:8vh;
+    background-color: dodgerblue;
+}
+.signUpHeader img{
+    width:4vh ;
+    height:4vh ;
+    margin:0 0 0 2vh;
+}
+
+.signUpHeader p {
+    color: white;
+    margin:0 ;
+    text-align: left;
+
+}
+.signUpCount{
+    width:80vw;
+    height:10vh;
+    font-size: large;
+    margin:5vh 0 0 0;
+    border-color: darkgray;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding-left: 8vw;
+
+}
+.signUpPassword{
+    width:80vw;
+    height:10vh;
+    font-size: large;
+
+    border-color: darkgray;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding-left: 8vw;
+}
+.signUpButton{
+    width:80vw;
+    height:10vh;
+    margin: 0 0 30vh 0 ;
+}
+
+.signUpH2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:10vh;
+    font-size: small;
+    font-weight: lighter;
+}
+.signUpH2 img {
+    width:6vw;
+    height:6vw;
+    margin:0;
+}
+.signUpH2 span{
+    color: dodgerblue;
+}

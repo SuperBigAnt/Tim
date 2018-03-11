@@ -1,0 +1,61 @@
+
+.login {
+
+    display: flex;
+    width:100%;
+    height:100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    background-color: white;
+}
+
+.loginImg{
+    margin: 20vh 35vw 10vh 35vw;
+    width:30vw;
+    height:30vw;
+    border-radius: 50%;
+}
+
+.loginUserName{
+    margin:0 25vw 0 25vw;
+    width:50vw;
+    height:6vh;
+    border-color: darkgray;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding-left: 8vw;
+
+}
+.loginPassword{
+    margin:0 25vw 0 25vw;
+    width:50vw;
+    height:6vh;
+    border-color: darkgray;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding-left: 8vw;
+}
+button{
+    width:50vw;
+    height:6vh;
+    margin: 8vh 25vw 0 25vw;
+    background-color: dodgerblue;
+    padding:0;
+    border-width: 0;
+    color: white;
+    font-weight: bold;
+    word-spacing: 30px;
+}
+.loginA1{
+    margin:18vh 10vw 5vh 5vw
+
+}
+.loginA2{
+    margin:18vh 5vw 5vh 10vw
+}

@@ -1,0 +1,53 @@
+
+
+
+.changeGroup .ChangeGroup-h1{
+   position: relative;
+   top:5vh;
+   margin:0;
+}
+
+.changeGroup .changeGroup-Groups{
+   position: relative;
+   top:10vh;
+   margin: 0;
+}
+
+.changeGroup .changeGroup-Groups .newList .am-list-arrow-horizontal{
+   background-image: url('../../assert/image/check.png');
+}
+.changeGroup .changeGroup-none{
+   display: none;
+}
+
+.changeGroup .changeGroup-full{
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0);
+   z-index: 101;
+}
+.changeGroup .changeGroup-full .changeGroup-center{
+   position: relative;
+   top:33vh;
+   left:36vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width:28vw;
+   height: 30vw;
+   border-radius: 10%;
+   background-color: rgba(0,0,0,0.5);
+}
+.changeGroup .changeGroup-full .changeGroup-center img{
+   width: 12vw;
+   height: 12vw;
+
+}
+.changeGroup .changeGroup-full .changeGroup-center p{
+   margin:2vw 0 0 0;
+   font-size: 4.5vw;
+   font-weight: 400;
+   color: white;
+}

@@ -1,0 +1,6 @@
+.blankBox{
+    display: block;
+    background: rgba(0,0,0,0);
+    height:5vh;
+    width:100%;
+}

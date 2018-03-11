@@ -1,0 +1,28 @@
+.searchBar{
+    display: flex;
+    justify-content:center;
+    width: 94vw;
+    height: 3.5vh;
+    margin:1.5vh auto;
+    /*background-color: #eaeaea;*/
+}
+
+.searchBar img{
+    width:1.9vh;
+    height:1.9vh;
+    margin: 0;
+    padding: 0.8vh;
+
+
+}
+
+.searchBar input{
+    width:50vw;
+    height:3.5vh;
+    font-size: 2vh;
+    padding: 0;
+    border: 0;
+    flex-grow: 2;
+
+    /*background-color: #eaeaea;*/
+}

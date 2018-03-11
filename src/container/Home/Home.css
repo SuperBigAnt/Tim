@@ -1,0 +1,24 @@
+.home{
+    background-color: white;
+}
+
+.home .newList .am-list-thumb img{
+    height:6.7vh;
+    width: 6.7vh;
+}
+.home .newList .am-list-line .am-list-content{
+    height:5.6vh;
+    padding-bottom: 1.9vh;
+    padding-top: 1.9vh;
+
+}
+.home .newList .am-swipe-btn-text {
+    padding: 0 14px;
+}
+
+.home .newList .am-swipe-cover{
+    left:-168px;
+}
+.home .newList .am-list .am-list-body::after{
+    display:none;
+}
